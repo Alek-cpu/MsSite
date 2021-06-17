@@ -156,7 +156,7 @@ table {
 }
 
 tr th  {
-    background: #4444d2;
+    background: #d1d1f5;
     padding: 10px;
 }
 
@@ -165,11 +165,11 @@ tr td  {
     width: fit-content;
     height: 100%;
     border-bottom: 1px solid #2645e0;
+    border-right: 1px solid #2645e0;
 }
 
 td div {
     padding: 5px;
     height: 41px;
-    /*border-top: 1px solid #709dc3;*/
 }
 
