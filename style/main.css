@@ -144,12 +144,32 @@ li, .sidebar-sublist {
 }
 
 table {
-    font-size: 14px;
-    margin: 0 auto;
+    font-size: 13px;
+    margin: 20px auto;
+    padding: 5px;
     width: 100%;
+    background: #d7d7e7;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid blue;
+
 }
 
-table div {
-    border: 1px solid black;
+tr th  {
+    background: #4444d2;
+    padding: 10px;
+}
+
+tr td  {
+    background: #f3f3fb;
+    width: fit-content;
+    height: 100%;
+    border-bottom: 1px solid #2645e0;
+}
+
+td div {
+    padding: 5px;
+    height: 41px;
+    /*border-top: 1px solid #709dc3;*/
 }
 
