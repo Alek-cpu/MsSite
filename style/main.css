@@ -113,7 +113,7 @@ li, .sidebar-sublist {
 }
 
 .article {
-    font-size: 12px;
+    font-size: 16px;
     padding: 5px;
 }
 
@@ -130,13 +130,23 @@ li, .sidebar-sublist {
     margin-bottom: 20px;
 }
 
+.image-block {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-block img {
+    width: 120%;
+}
+
 .picture-signature {
     font-style: italic;
 }
 
 table {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 auto;
+    width: 100%;
 }
 
 table div {
