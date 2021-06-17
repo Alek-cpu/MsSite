@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    background: #0000ff73;
+    padding: 5px 6px;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    height: -webkit-fill-available;
+}
+
+.citeName {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.sidebar-li {
+    position: relative;
+    margin: 20px 0;
+    list-style-type: none;
+    transition: .7s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-li:hover {
+    /*margin-left: 8px;*/
+    transition: .7s;
+    color: #4444d2;
+    font-weight: bold;
+}
+
+.sidebar-li::before {
+    position: absolute;
+    content: "\25bc";
+    left: -12px;
+}
+
+.sidebar-sublist {
+    position: relative;
+    margin: 12px 0 0 10px;
+    color: #0000008c;
+    display: none;
+    transition: .5s;
+}
+
+.sidebar-sublist:hover {
+    width: fit-content;
+    border-bottom: 2px solid black;
+    opacity: 1;
+    font-weight: bold;
+    color: cornflowerblue;
+    transition: .5s;
+}
+
+li, .sidebar-sublist {
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}
+
+.container {
+    margin: 0 16px;
+    padding: 5px;
+}
+
+.structure {
+    position: relative;
+    display: flex;
+}
+
+.sidebar {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    padding: 10px 14px;
+    font-size: small;
+}
+
+.content {
+    width: 80%;
+    border-left: 2px solid blue;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.article {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.article ul {
+    margin-left: 20px;
+}
+
+.articles-header {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.articleBottomSpace {
+    margin-bottom: 20px;
+}
+
+.picture-signature {
+    font-style: italic;
+}
+
+table {
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+table div {
+    border: 1px solid black;
+}
+
